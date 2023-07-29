@@ -1,0 +1,79 @@
+*{
+  font-family: 'Mulish', sans-serif;
+  background-color: aliceblue;
+  border: none;
+}
+.loginContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30vw;
+  background-color: white;
+  box-shadow: 1px 1px 10px black;
+  gap: 10px;
+  padding: 30px;
+  height: 60vh;
+}
+
+.login > div {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.login > div > input{
+  padding: 10px;
+  background-color: white;
+  width: 27vw;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+label{
+  color: black;
+  background-color: white;
+  font-size: small;
+}
+
+h2, h3, p{
+  background-color: white;
+}
+
+.details{
+  font-weight: bolder;
+}
+
+button{
+  margin-top: 10px;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  width: 94%;
+  font-weight: bolder;
+  border-radius: 4px;
+  cursor: pointer;
+}
+img{
+  margin-left: 40px;
+  width: 80px;
+  border-radius: 40px;
+}
+button:hover{
+  background-color: darkblue;
+}
+
+@media (max-width: 800px) {
+  .login{
+    width: 70vw;
+  }
+  .login > div > input{
+    width: 60vw;
+  }
+}
