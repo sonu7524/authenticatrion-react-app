@@ -72,6 +72,7 @@ button:hover{
 @media (max-width: 800px) {
   .login{
     width: 70vw;
+    height: 40vh;
   }
   .login > div > input{
     width: 60vw;
